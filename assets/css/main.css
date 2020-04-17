@@ -3594,6 +3594,18 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 	}
+	
+		#banner .icons {
+			font-size: 1.25em;
+		}
+
+			#banner .icons a {
+				color: rgba(255, 255, 255, 0.5);
+			}
+
+				#banner .icons a:hover {
+					color: #fff;
+				}
 
 		#banner h2 {
 			-moz-transform: scale(1);
@@ -3896,7 +3908,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 4em 0 ;
+		padding: 4em 0 2em 0 ;
 		background-color: #1d242a;
 		text-align: center;
 	}
