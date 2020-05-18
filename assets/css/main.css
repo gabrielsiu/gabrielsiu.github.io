@@ -2684,7 +2684,10 @@ input, select, textarea {
 
 			.spotlight .image img {
 				border-radius: 0;
-				width: 100%;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 75%;
 			}
 
 		.spotlight .content {
@@ -3305,7 +3308,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			.wrapper {
+			.wrapper.style1, .wrapper.style3, .wrapper.style4, .wrapper.style5 {
 				padding: 4em 3em 2em 3em ;
 			}
 
@@ -3313,7 +3316,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			.wrapper {
+			.wrapper.style1, .wrapper.style3, .wrapper.style4, .wrapper.style5 {
 				padding: 3em 2em 1em 2em ;
 			}
 
